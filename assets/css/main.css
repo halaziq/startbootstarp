@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(44,62,80);
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.nav{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    margin-right: 5%;
+}
+.nav-text{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+
+  }
+
+
+.big-nav{
+    font-size: 30px;
+    margin-left: 5%;
+}
+
+.small-nav{
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+
+.header-div{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(26,188, 156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.personIcon{
+    height: 350px;
+    width: 350px;
+    margin-top: 50px;
+}
+
+.startboot{
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+
+
+.PORTFOLIO{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    gap: 30px;
+}
+
+h2{
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-top: 40px ;
+    color:rgb(44,62,80);
+}
+
+.about{
+    overflow: hidden;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    height: 500px;
+    text-align: center;
+    background-color:  rgb(26,188, 156);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.portfolio-images{
+    height: 250px;
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image{
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+#aboutH2{
+    margin-top: 80px;
+    color: white;
+}
+.pargraphs{
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+}
+.par{
+    width: 400px;
+    color: white;
+    text-align: start;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.download{
+    width: 200px;
+    margin: 5px;
+    height: 55px;
+    border: 1px solid white;
+    background-color:  rgb(26,188, 156);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.contact{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+input{
+font-family: sans-serif;
+  width: 50%;
+  height: 70px;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 16px;
+}
+label{
+    text-align: start;
+    width: 50%;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #7c7c7c;
+
+}
+.contact-form{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+textarea{
+    width: 50%;
+    height: 100px;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    border-radius: 4px;
+}
+
+.send{
+    background-color: rgb(26,188, 156);
+    height: 60px;
+    width: 100px;
+    border: 0;
+    font-size: 16px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+    border-radius: 4px;
+}
+
+.copy{
+    text-align: center;
+    color: white;
+    font-size: 16;
+    font-family: sans-serif;
+    background-color:#1a252f;
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+}
+.media{
+    width: 100%;
+    height: 250px;
+    background-color: #2c3e50;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Copyright{
+    margin-top: 30px;
+}
+
+.location{
+    height: 120px;
+    width: 20%;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+.around-the-web{
+    height: 120px;
+    width: 25%;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+.about-freelancer{
+    height: 120px;
+    width: 30%;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+h4{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.roundedIcons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rounded-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+#fa-brands{
+    margin-top: 14px;
+}
+
+.start-bootstrap-link{
+    color: rgb(26,188, 156);
+    font-size: 20px;
+
+}
+
+
+
